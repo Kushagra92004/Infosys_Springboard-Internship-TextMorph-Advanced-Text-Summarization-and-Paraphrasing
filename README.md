@@ -1,0 +1,2 @@
+# Infosys_Springboard-Internship-TextMorph-Advanced-Text-Summarization-and-Paraphrasing
+TextMorph is an advanced natural language processing (NLP) system designed to automatically summarize and paraphrase large volumes of text efficiently and intelligently. It combines modern AI language models with linguistic analysis to generate concise, coherent, and contextually accurate representations of source content.
