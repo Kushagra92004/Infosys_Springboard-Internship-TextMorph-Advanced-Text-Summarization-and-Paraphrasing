@@ -9,9 +9,13 @@
 
 ## How to Run
 1.Open milestone1.ipynb in Google Colab.
+
 2.Select GPU runtime (for faster processing).
+
 3.Run all cells sequentially from top to bottom.
+
 4.Review the generated outputs and evaluation metrics.
+
 5.Export or save the visualized results and generated text for analysis.
 
 ## Models Used
