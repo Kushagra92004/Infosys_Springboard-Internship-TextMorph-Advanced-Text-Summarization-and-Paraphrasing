@@ -2,7 +2,7 @@
 
 This milestone focuses on implementing and comparing pretrained language models for text summarization and paraphrasing. The goal is to evaluate model performance on sample datasets and analyze the quality of generated summaries and paraphrases through quantitative metrics and visualizations.
 
-# Repository Structure
+## Repository Structure
 milestone1.ipynb  – Main Jupyter/Colab notebook (all implementation code).
 art.txt, ref.txt – Sample text data files for testing summarization and paraphrasing.
 /outputs/ – Folder containing generated summaries, paraphrased text, and evaluation plots after running the notebook.
