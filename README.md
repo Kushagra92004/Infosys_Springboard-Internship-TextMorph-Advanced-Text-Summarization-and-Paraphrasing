@@ -19,7 +19,7 @@ Summarization: t5-small,facebook/bart-large-cnn,google/pegasus-xsum
 paraphrasing: attempts to use vamsi/T5_Paraphrase_Paws,ramsrigouthamg/t5_paraphraser,prithivida/parrot_paraphraser_on_T5
 
 ## Evaluation
-ROUGE-1
+* ROUGE-1
 
 BLEU Score
 
