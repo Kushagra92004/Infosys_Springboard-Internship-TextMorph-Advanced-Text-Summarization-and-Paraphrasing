@@ -53,11 +53,11 @@ The models were trained and fine-tuned using frameworks like PyTorch and TensorF
 We used pre-trained transformer models as a base and optimized them on our dataset.
 Typical training parameters included:
 
-Learning rate: 3e-5
+* Learning rate: 3e-5
 
-Batch size: 8–16
+* Batch size: 8–16
 
-Epochs: 3–5
+* Epochs: 3–5
 
 We evaluated the models using:
 
@@ -78,39 +78,37 @@ The overall approach of TextMorph can be divided into five key stages:
 Input Processing:
 The user’s text is first cleaned and tokenized for the models to understand.
 
-Summarization Flow:
+### Summarization Flow:
 
 Extractive summarization selects important sentences using algorithms like TextRank.
 
 Abstractive summarization uses transformer models (T5 or BART) to rewrite the input into a concise, meaningful summary.
 
-Paraphrasing Flow:
+### Paraphrasing Flow:
 The paraphrasing model (T5 or Pegasus) takes the input and rewrites it while preserving its meaning.
 The model ensures the rephrased text feels natural and not repetitive.
 
-Post-processing:
+* Post-processing:
 Grammar correction tools and formatting scripts clean the output for better readability and coherence.
 
-Evaluation:
+* Evaluation:
 Both human evaluators and automatic metrics (ROUGE and BLEU) are used to measure quality.
 
-🔍 3. Observations
+## 3. Observations
 
 After training and testing TextMorph, several observations were made:
 
-3.1 Summarization
+### 3.1 Summarization
 
 Extractive summarization worked best for factual content like news reports. It was accurate but sometimes less fluent.
-
 Abstractive summarization produced more natural and human-like summaries, though it occasionally introduced small factual variations.
-
 Fine-tuning models on specific text types (like academic or news content) improved results significantly.
 
-Model	Type	ROUGE-L	Summary Length	Remarks
+* Model	Type	ROUGE-L	Summary Length	Remarks
 TextRank (TF-IDF)	Extractive	0.42	~35% of text	Accurate but slightly rigid
 T5-small	Abstractive	0.54	~30% of text	Natural and concise
 BART-base	Abstractive	0.57	~28% of text	Most fluent and balanced
-3.2 Paraphrasing
+## 3.2 Paraphrasing
 
 The paraphrasing models produced smooth, fluent sentences that retained the original meaning.
 
@@ -130,6 +128,6 @@ TextMorph handled large text batches efficiently.
 
 Users rated the quality of paraphrased content 4.6/5, appreciating its clarity and readability.
 
-✅ In summary:
+### In summary:
 TextMorph successfully demonstrates how modern NLP models can be combined to automate summarization and paraphrasing in a natural, human-like way.
 It reduces manual rewriting effort, improves readability, and provides reliable results for both academic and professional use.
