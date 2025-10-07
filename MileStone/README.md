@@ -31,5 +31,24 @@
 * Evaluation metrics such as ROUGE, BLEU, and Cosine Similarity.
 * Visualization plots showing performance comparisons between models.
 
+## Text Summarization:
+Text summarization means creating a shorter version of a text that still keeps the main ideas and important information from the original.
+
+It’s like reading a long article or story and then writing a brief summary that tells what it’s mainly about.
+
+There are two main types of text summarization:
+
+Extractive summarization:
+
+Picks out the most important sentences or phrases directly from the text.
+
+Example: Highlighting key sentences from a news article.
+
+Abstractive summarization:
+
+Rewrites the text in new words, like how a human would summarize.
+
+It uses understanding of meaning, not just sentence picking.
+
 
 
