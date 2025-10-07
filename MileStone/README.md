@@ -128,6 +128,73 @@ Average processing time: 1.8 seconds per paragraph on a GPU.
 TextMorph handled large text batches efficiently.
 
 Users rated the quality of paraphrased content 4.6/5, appreciating its clarity and readability.
+##  Text Summarization Models
+
+Text summarization is about creating a shorter version of a text while keeping the important points intact. We use three main pretrained models for this:
+
+###  T5 Base
+
+What it is: T5 is a “text-to-text” model developed by Google. It can take any text input and generate another text as output.
+
+Why we use it: It’s very flexible — it can summarize text by generating new sentences that convey the same meaning.
+
+Strengths: Produces clear, readable summaries. Can be fine-tuned for specific types of text.
+
+Use case: Summarizing articles, reports, or paragraphs in a way that reads naturally.
+
+###  BART Base
+
+What it is: BART is a model that’s trained to fix corrupted text. For summarization, it rewrites the text into a concise summary.
+
+Why we use it: It’s excellent at producing fluent, human-like summaries.
+
+Strengths: Very good at keeping context while making summaries smooth and readable.
+
+Use case: Summaries for news articles or longer reports where readability is important.
+
+###  Pegasus-XSum
+
+What it is: Pegasus is specifically designed for summarization. It was trained to predict missing sentences, which makes it great at generating concise summaries.
+
+Why we use it: It excels at short, precise summaries, especially for news content.
+
+Strengths: Captures the main points quickly without unnecessary details.
+
+Use case: Generating very short summaries or headlines from news articles.
+
+##  Text Paraphrasing Models
+
+Paraphrasing is about rewriting a sentence or paragraph using different words while keeping the meaning. We use three main models here:
+
+###  Pegasus Paraphrase
+
+What it is: Pegasus can also be fine-tuned for paraphrasing instead of summarization.
+
+Why we use it: It creates multiple versions of a sentence, all with the same meaning.
+
+Strengths: Produces diverse and natural-sounding paraphrases.
+
+Use case: Rewriting content for academic work, blogs, or reports.
+
+###  T5 Paraphrase
+
+What it is: T5 can be trained to paraphrase by giving it text with a “paraphrase:” prompt.
+
+Why we use it: It rewrites sentences in different ways while keeping them correct and readable.
+
+Strengths: Generates multiple paraphrasing options; good for domain-specific text.
+
+Use case: Creating alternative ways to write the same idea, avoiding repetition.
+
+###  BART Paraphrase
+
+What it is: BART can also be fine-tuned for paraphrasing by giving it input-output sentence pairs.
+
+Why we use it: It produces smooth, fluent sentences that sound very natural.
+
+Strengths: Keeps the original meaning even for long sentences.
+
+Use case: Professional writing, content rewriting, or improving readability.
 
 ### In summary:
 TextMorph successfully demonstrates how modern NLP models can be combined to automate summarization and paraphrasing in a natural, human-like way.
