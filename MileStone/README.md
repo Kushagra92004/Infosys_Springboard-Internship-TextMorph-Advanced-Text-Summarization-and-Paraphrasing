@@ -13,17 +13,17 @@ Additional custom paragraphs were also collected for paraphrasing tasks to ensur
 Before any modeling, the raw text had to be cleaned and standardized.
 This involved:
 
-Tokenizing the text into sentences and words.
+* Tokenizing the text into sentences and words.
 
-Removing stopwords like “the,” “is,” and “of” that do not carry much meaning.
+* Removing stopwords like “the,” “is,” and “of” that do not carry much meaning.
 
-Lemmatizing words so that “running” and “ran” become “run.”
+* Lemmatizing words so that “running” and “ran” become “run.”
 
-Cleaning noise such as punctuation, URLs, and HTML tags.
+* Cleaning noise such as punctuation, URLs, and HTML tags.
 
-Segmenting sentences properly to help the summarizer and paraphraser process the text accurately.
+* Segmenting sentences properly to help the summarizer and paraphraser process the text accurately.
 
-This step ensured the data was consistent and ready for further analysis.
+* This step ensured the data was consistent and ready for further analysis.
 
 ### 1.3 Model Design
 
