@@ -1,5 +1,4 @@
-# Milestone 1 – Text Summarization & Paraphrasing.
-
+# Milestone 1 – TextMorph Advanced Text Summarization and Paraphrasing
 * This milestone focuses on implementing and comparing pretrained language models for text summarization and paraphrasing. The goal is to evaluate model performance on sample datasets and analyze the quality of generated summaries and paraphrases through quantitative metrics and visualizations.
 
 ## Structure
