@@ -45,5 +45,16 @@ Example: Highlighting key sentences from a news article.
 Rewrites the text in new words, like how a human would summarize.
 It uses understanding of meaning, not just sentence picking.
 
+## Text Paraphrasing
+Text paraphrasing means rewriting a piece of text in a different way while keeping the same meaning.
+It’s like saying the same thing using different words or sentence structures.
+
+Example:
+* Original text:
+The weather was very cold, so we decided to stay indoors.
+
+* Paraphrased text:
+Because it was freezing outside, we chose not to go out.
+Both sentences mean the same thing, but the words and structure are changed.
 
 
