@@ -1,4 +1,5 @@
-# MileStone-     TextMorph Advanced Text Summarization and Paraphrasing
+# MileStone1-     
+## TextMorph Advanced Text Summarization and Paraphrasing
 ## 1. Methodology
 
 The project TextMorph focuses on developing an intelligent system that can summarize and paraphrase text automatically using advanced Natural Language Processing (NLP) techniques. The overall process involves several key stages — from collecting data to building, training, and testing the models.
