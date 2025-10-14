@@ -202,7 +202,7 @@ TextMorph successfully demonstrates how modern NLP models can be combined to aut
 It reduces manual rewriting effort, improves readability, and provides reliable results for both academic and professional use.
 
 # MileStone - 2
-#  TextMorph: Advanced Text Summarization and Paraphrasing
+##  TextMorph: Advanced Text Summarization and Paraphrasing
 
 This project focuses on comparing and analyzing multiple AI models for **text summarization** and **paraphrasing**, implemented in **Google Colab** using **Hugging Face Transformers** and other NLP libraries.  
 
