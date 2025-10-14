@@ -1,4 +1,4 @@
-# MileStone1-     
+# MileStone-1    
 ## TextMorph Advanced Text Summarization and Paraphrasing
 ## 1. Methodology
 
@@ -200,3 +200,75 @@ Use case: Professional writing, content rewriting, or improving readability.
 ### In summary:
 TextMorph successfully demonstrates how modern NLP models can be combined to automate summarization and paraphrasing in a natural, human-like way.
 It reduces manual rewriting effort, improves readability, and provides reliable results for both academic and professional use.
+
+# MileStone - 2
+#  TextMorph: Advanced Text Summarization and Paraphrasing
+
+This project focuses on comparing and analyzing multiple AI models for **text summarization** and **paraphrasing**, implemented in **Google Colab** using **Hugging Face Transformers** and other NLP libraries.  
+
+An **interactive UI** was created using `ipywidgets` to make it easier to test, compare, and visualize results from multiple models.
+
+---
+
+## Aim
+
+The aim of this project is to **compare and analyze the performance of multiple AI models for text summarization** and understand how different models handle **meaning, fluency, and readability**.
+
+---
+
+## Objectives
+
+- To explore and implement **different summarization techniques** (abstractive and extractive).  
+- To integrate **multiple pre-trained transformer models** from Hugging Face.  
+- To design an **interactive UI** in Google Colab for real-time summarization.  
+- To evaluate the performance using metrics like **ROUGE**, **Semantic Similarity**, **Readability**, and **Processing Time**.  
+- To test and compare model results on **10 different domains of text**.
+
+---
+
+## Models Used
+
+| Model | Type | Developed By | Description |
+|-------|------|---------------|-------------|
+| **TinyLlama-1.1B-Chat** | Abstractive | TinyLlama Community | A lightweight version of LLaMA fine-tuned for chat and summarization tasks. |
+| **Phi-2** | Abstractive | Microsoft | Compact 2.7B model trained on high-quality reasoning and educational datasets. |
+| **BART-Large-CNN** | Abstractive | Meta (Facebook) | Transformer model fine-tuned on the CNN/DailyMail dataset for news summarization. |
+| **Gemma-2B-IT** | Abstractive | Google DeepMind | Instruction-tuned model built for summarization and text generation. |
+| **TextRank** | Extractive | NLTK / NetworkX | A classic algorithm that extracts key sentences based on graph ranking. |
+
+---
+
+## Tools and Libraries Used
+
+- **Google Colab (GPU Runtime)**
+- **Python 3.12**
+- **Hugging Face Transformers**
+- **NLTK**
+- **NetworkX**
+- **ipywidgets**
+- **ROUGE Metrics**
+- **Sentence Transformers**
+
+---
+
+## Evaluation Metrics
+
+- **ROUGE Score** – for measuring summary overlap.  
+- **Semantic Similarity** – to check how close the generated summary is in meaning.  
+- **Readability Score** – to assess text clarity and fluency.  
+- **Processing Time** – to evaluate performance efficiency.
+
+---
+
+## Future Enhancements
+
+- Integration with a web-based UI (Streamlit or Flask).  
+- Addition of multilingual summarization models.  
+- Support for longer context documents using retrieval-augmented generation (RAG).
+
+
+## Acknowledgments
+
+This project utilizes state-of-the-art NLP models from **Hugging Face** and leverages **Google Colab** for experimentation and performance comparison.
+
+
